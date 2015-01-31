@@ -1,0 +1,16 @@
+<?php
+require_once("config.php");
+require_once("convertdate.php");
+require_once("classes/homecontents.php");
+require_once("classes/homecontent1.php");
+require_once("classes/homecontent2.php");
+require_once("classes/homecontent3.php");
+require_once("classes/homecontent4.php");
+require_once("classes/aboutus1.php");
+require_once("classes/aboutus2.php");
+require_once("classes/services.php");
+require_once("classes/ourproducts.php");
+require_once("classes/users.php");
+require_once("classes/forms.php");
+require_once("PHPMailer/class.phpmailer.php");
+require_once("PHPMailer/class.smtp.php");

@@ -1,0 +1,139 @@
+﻿
+*{
+    padding:0px;
+    margin:0px;
+    border:0px;
+}
+
+@font-face
+{
+    font-family:myfont;
+    src:url('../fonts/ANegaarRegular.ttf') format('ttf'),url('../fonts/ANegaarRegular.woff') format('woff');
+}
+
+
+body
+{
+    direction:rtl;
+    background-color:rgb(252,252,252);
+    background:url("../img/128-167.jpg") fixed;
+    font-family:myfont;
+}
+
+#logocontainer
+{
+height:180px;
+width:400px;
+margin-left:auto;
+margin-right:auto;
+}
+#main
+{
+    /*margin-top:10%;*/
+    margin-left:auto;
+    margin-right:auto;
+    width:630px;
+    height:420px;
+    
+}
+.submenu
+{
+    float:right;
+    width:120px;
+    height:120px;
+    background-position: center;
+    background-repeat:no-repeat;
+    transform:scale(0.1,0.1);
+    position:fixed;
+   
+}
+.menu
+{
+    float:right;
+    width:200px;
+    height:200px;
+    margin:5px;
+}
+
+#subhome
+{
+background-image:url("../img/splash_icon1.png");
+/*transition-duration:0.4s;*/
+}
+#subaboutus
+{
+background-image:url("../img/splash_icon2.png");
+/*transition-duration:0.4s;*/
+}
+#subservice
+{
+background-image:url("../img/splash_icon3.png");
+/*transition-duration:0.4s;*/
+}
+#subproducts
+{
+background-image:url("../img/splash_icon4.png");
+/*transition-duration:0.4s;*/
+}
+#subblog
+{
+background-image:url("../img/splash_icon5.png");
+/*transition-duration:0.4s;*/
+}
+#submail
+{
+background-image:url("../img/splash_icon6.png");
+/*transition-duration:0.4s;*/
+}
+/*------------------------------------*/
+#subhome:hover
+{
+background-image:url("../img/splash_icon1_over.png");
+transition-duration:0.4s;
+}
+#subaboutus:hover
+{
+background-image:url("../img/splash_icon2_over.png");
+transition-duration:0.4s;
+}
+#subservice:hover
+{
+background-image:url("../img/splash_icon3_over.png");
+transition-duration:0.4s;
+}
+#subproducts:hover
+{
+background-image:url("../img/splash_icon4_over.png");
+transition-duration:0.4s;
+}
+#subblog:hover
+{
+background-image:url("../img/splash_icon5_over.png");
+transition-duration:0.4s;
+}
+#submail:hover
+{
+background-image:url("../img/splash_icon6_over.png");
+transition-duration:0.4s;
+}
+/*.submenu a:hover
+{
+    transition-duration:0.4s;
+    opacity:0.8;
+}*/
+#main p
+{
+text-align:center;
+margin-top:170px;
+opacity:0;
+}
+.footer
+{
+text-align:center;
+}
+
+#footername
+{
+    margin-top:20px;
+    font-weight:700;
+}

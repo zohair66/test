@@ -1,0 +1,103 @@
+﻿       *{
+           margin:0px;
+           padding:0px;
+       }
+
+
+
+        #adminloginshowrisult {
+            direction: rtl;
+            background: url("../img/adminloginbodybackground.png");
+            padding: 2%;
+            font-family: tahoma;
+            font-size: 16px;
+        }
+
+        #adminlogoutlink p a {
+            float:right;
+            top: 10px;
+            right: 10px;
+        }
+        .button{
+            margin-right: 2px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #444444;
+            padding: 5px 20px ;
+            border-radius: 5px;
+            background:linear-gradient(white 0%,#777777 100%);
+        }
+        .button:hover{
+            box-shadow: 1px 1px 2px black inset,-1px -1px 2px black inset;
+        }
+        .button:active {
+            background: linear-gradient(#555555 0%,white 100%);
+        }
+
+        .adminlogoutmsg {
+        color: red;font-weight: bold; margin-bottom: 20px;  font-size: 22px; text-align: center; font-weight: 100;
+        }
+        #main{
+            clear:both;
+            direction: rtl;
+            padding-top: 10px;
+        }
+        #welcomepanel{
+            clear:both;
+
+        }
+        #rightpanel{
+            float:right;
+            direction: rtl;
+            margin-top:20px;
+            padding: 0;
+        }
+        #adminmenu li{
+            direction: rtl;
+            list-style: none;
+            text-align: center;
+            margin: 2px 0px;
+        }
+        #adminmenu li a {
+            margin-right: 2px;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border: 1px solid #444444;
+            padding: 5px 20px ;
+            border-radius: 5px;
+            background-color:rgba(00,00,00,0.5) ;
+        }
+        #adminmenu li a:hover{
+           background-color:black ;
+        }
+        .centerpanel{
+            float:right;
+            margin:20px 30px 0px 0px;
+            width: 1000px;
+        }
+        .centerpanelheader {
+            background-color: rgba(50,50,200,0.7) ;
+            padding : 5px;
+            text-align: center;
+            margin-bottom: 10px ;
+            font-size: large;
+        }
+        #requestform{
+            text-align:center;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color:white;
+            padding:5px;
+        }
+        #requestform td {
+            border: 1px black solid;
+            padding: 8px;
+            text-align: center;
+        }
+        #requestform th {
+            padding: 8px;
+        }
